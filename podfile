@@ -1,0 +1,4 @@
+platform :ios
+xcodeproj 'GLFMDBCipher/GLFMDBCipher.xcodeproj'
+pod 'FMDB'
+pod 'FMDB/SQLCipher', '~> 2.5'

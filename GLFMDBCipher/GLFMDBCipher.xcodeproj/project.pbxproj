@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFA3405D386544E298102A5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C911EDDAD9673A138969C8 /* libPods.a */; };
+		92AB223A1C50D5C300F22FC3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AB22391C50D5C300F22FC3 /* libsqlite3.0.tbd */; };
+		92C4FC3C1C50C6CB003463AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC3B1C50C6CB003463AB /* main.m */; };
+		92C4FC3F1C50C6CB003463AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC3E1C50C6CB003463AB /* AppDelegate.m */; };
+		92C4FC451C50C6CB003463AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4FC431C50C6CB003463AB /* Main.storyboard */; };
+		92C4FC471C50C6CB003463AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C4FC461C50C6CB003463AB /* Assets.xcassets */; };
+		92C4FC4A1C50C6CB003463AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4FC481C50C6CB003463AB /* LaunchScreen.storyboard */; };
+		92C4FC551C50CD55003463AB /* PPFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC541C50CD55003463AB /* PPFMDBTool.m */; };
+		92C4FC581C50CD60003463AB /* PPShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC571C50CD60003463AB /* PPShop.m */; };
+		92C4FC5B1C50CD75003463AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC5A1C50CD75003463AB /* ViewController.m */; };
+		92C4FC5F1C50CD7B003463AB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC5E1C50CD7B003463AB /* UIView+Extension.m */; };
+		92C4FC621C50CDF7003463AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C4FC611C50CDF7003463AB /* libsqlite3.tbd */; };
+		92C4FC6A1C50D23A003463AB /* FMEncryptDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC651C50D23A003463AB /* FMEncryptDatabase.m */; };
+		92C4FC6B1C50D23A003463AB /* FMEncryptDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC671C50D23A003463AB /* FMEncryptDatabaseQueue.m */; };
+		92C4FC6C1C50D23A003463AB /* FMEncryptHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C4FC691C50D23A003463AB /* FMEncryptHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C911EDDAD9673A138969C8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73467A0F4D1F568399C706EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		92AB22391C50D5C300F22FC3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		92C4FC371C50C6CB003463AB /* GLFMDBCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFMDBCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C4FC3B1C50C6CB003463AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C4FC3D1C50C6CB003463AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92C4FC3E1C50C6CB003463AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92C4FC441C50C6CB003463AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C4FC461C50C6CB003463AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C4FC491C50C6CB003463AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C4FC4B1C50C6CB003463AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C4FC511C50C6E2003463AB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		92C4FC531C50CD55003463AB /* PPFMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPFMDBTool.h; sourceTree = "<group>"; };
+		92C4FC541C50CD55003463AB /* PPFMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFMDBTool.m; sourceTree = "<group>"; };
+		92C4FC561C50CD60003463AB /* PPShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPShop.h; sourceTree = "<group>"; };
+		92C4FC571C50CD60003463AB /* PPShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPShop.m; sourceTree = "<group>"; };
+		92C4FC591C50CD75003463AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92C4FC5A1C50CD75003463AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92C4FC5D1C50CD7B003463AB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		92C4FC5E1C50CD7B003463AB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		92C4FC601C50CD88003463AB /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		92C4FC611C50CDF7003463AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		92C4FC641C50D23A003463AB /* FMEncryptDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEncryptDatabase.h; sourceTree = "<group>"; };
+		92C4FC651C50D23A003463AB /* FMEncryptDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEncryptDatabase.m; sourceTree = "<group>"; };
+		92C4FC661C50D23A003463AB /* FMEncryptDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEncryptDatabaseQueue.h; sourceTree = "<group>"; };
+		92C4FC671C50D23A003463AB /* FMEncryptDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEncryptDatabaseQueue.m; sourceTree = "<group>"; };
+		92C4FC681C50D23A003463AB /* FMEncryptHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEncryptHelper.h; sourceTree = "<group>"; };
+		92C4FC691C50D23A003463AB /* FMEncryptHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEncryptHelper.m; sourceTree = "<group>"; };
+		D3207123B309B4B75E73DD61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C4FC341C50C6CB003463AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AB223A1C50D5C300F22FC3 /* libsqlite3.0.tbd in Frameworks */,
+				92C4FC621C50CDF7003463AB /* libsqlite3.tbd in Frameworks */,
+				4DFA3405D386544E298102A5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35977DE2DED83A3673FD29EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AB22391C50D5C300F22FC3 /* libsqlite3.0.tbd */,
+				92C4FC611C50CDF7003463AB /* libsqlite3.tbd */,
+				09C911EDDAD9673A138969C8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C4FC2E1C50C6CB003463AB = {
+			isa = PBXGroup;
+			children = (
+				92C4FC391C50C6CB003463AB /* GLFMDBCipher */,
+				92C4FC381C50C6CB003463AB /* Products */,
+				9DB5C7D61AED6200F45EFE78 /* Pods */,
+				35977DE2DED83A3673FD29EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92C4FC381C50C6CB003463AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC371C50C6CB003463AB /* GLFMDBCipher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C4FC391C50C6CB003463AB /* GLFMDBCipher */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC5C1C50CD7B003463AB /* UIView+Extention */,
+				92C4FC561C50CD60003463AB /* PPShop.h */,
+				92C4FC571C50CD60003463AB /* PPShop.m */,
+				92C4FC521C50CD4C003463AB /* Utils */,
+				92C4FC3D1C50C6CB003463AB /* AppDelegate.h */,
+				92C4FC3E1C50C6CB003463AB /* AppDelegate.m */,
+				92C4FC591C50CD75003463AB /* ViewController.h */,
+				92C4FC5A1C50CD75003463AB /* ViewController.m */,
+				92C4FC3A1C50C6CB003463AB /* Supporting Files */,
+			);
+			path = GLFMDBCipher;
+			sourceTree = "<group>";
+		};
+		92C4FC3A1C50C6CB003463AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC431C50C6CB003463AB /* Main.storyboard */,
+				92C4FC461C50C6CB003463AB /* Assets.xcassets */,
+				92C4FC481C50C6CB003463AB /* LaunchScreen.storyboard */,
+				92C4FC4B1C50C6CB003463AB /* Info.plist */,
+				92C4FC3B1C50C6CB003463AB /* main.m */,
+				92C4FC511C50C6E2003463AB /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C4FC521C50CD4C003463AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC631C50D23A003463AB /* Encrypt */,
+				92C4FC601C50CD88003463AB /* Singleton.h */,
+				92C4FC531C50CD55003463AB /* PPFMDBTool.h */,
+				92C4FC541C50CD55003463AB /* PPFMDBTool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		92C4FC5C1C50CD7B003463AB /* UIView+Extention */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC5D1C50CD7B003463AB /* UIView+Extension.h */,
+				92C4FC5E1C50CD7B003463AB /* UIView+Extension.m */,
+			);
+			path = "UIView+Extention";
+			sourceTree = "<group>";
+		};
+		92C4FC631C50D23A003463AB /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				92C4FC641C50D23A003463AB /* FMEncryptDatabase.h */,
+				92C4FC651C50D23A003463AB /* FMEncryptDatabase.m */,
+				92C4FC661C50D23A003463AB /* FMEncryptDatabaseQueue.h */,
+				92C4FC671C50D23A003463AB /* FMEncryptDatabaseQueue.m */,
+				92C4FC681C50D23A003463AB /* FMEncryptHelper.h */,
+				92C4FC691C50D23A003463AB /* FMEncryptHelper.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		9DB5C7D61AED6200F45EFE78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73467A0F4D1F568399C706EA /* Pods.debug.xcconfig */,
+				D3207123B309B4B75E73DD61 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C4FC361C50C6CB003463AB /* GLFMDBCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C4FC4E1C50C6CB003463AB /* Build configuration list for PBXNativeTarget "GLFMDBCipher" */;
+			buildPhases = (
+				B093D4B472F81EACE589619F /* Check Pods Manifest.lock */,
+				92C4FC331C50C6CB003463AB /* Sources */,
+				92C4FC341C50C6CB003463AB /* Frameworks */,
+				92C4FC351C50C6CB003463AB /* Resources */,
+				54F46F2E409D6835B8BB70CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLFMDBCipher;
+			productName = GLFMDBCipher;
+			productReference = 92C4FC371C50C6CB003463AB /* GLFMDBCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C4FC2F1C50C6CB003463AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = roseonly;
+				TargetAttributes = {
+					92C4FC361C50C6CB003463AB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 92C4FC321C50C6CB003463AB /* Build configuration list for PBXProject "GLFMDBCipher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C4FC2E1C50C6CB003463AB;
+			productRefGroup = 92C4FC381C50C6CB003463AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C4FC361C50C6CB003463AB /* GLFMDBCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C4FC351C50C6CB003463AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C4FC4A1C50C6CB003463AB /* LaunchScreen.storyboard in Resources */,
+				92C4FC471C50C6CB003463AB /* Assets.xcassets in Resources */,
+				92C4FC451C50C6CB003463AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54F46F2E409D6835B8BB70CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B093D4B472F81EACE589619F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C4FC331C50C6CB003463AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C4FC5F1C50CD7B003463AB /* UIView+Extension.m in Sources */,
+				92C4FC6A1C50D23A003463AB /* FMEncryptDatabase.m in Sources */,
+				92C4FC6C1C50D23A003463AB /* FMEncryptHelper.m in Sources */,
+				92C4FC3F1C50C6CB003463AB /* AppDelegate.m in Sources */,
+				92C4FC551C50CD55003463AB /* PPFMDBTool.m in Sources */,
+				92C4FC581C50CD60003463AB /* PPShop.m in Sources */,
+				92C4FC6B1C50D23A003463AB /* FMEncryptDatabaseQueue.m in Sources */,
+				92C4FC3C1C50C6CB003463AB /* main.m in Sources */,
+				92C4FC5B1C50CD75003463AB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92C4FC431C50C6CB003463AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C4FC441C50C6CB003463AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C4FC481C50C6CB003463AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C4FC491C50C6CB003463AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C4FC4C1C50C6CB003463AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92C4FC4D1C50C6CB003463AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C4FC4F1C50C6CB003463AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73467A0F4D1F568399C706EA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GLFMDBCipher/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/SQLCipher\"",
+					./sqlcipher/src,
+				);
+				INFOPLIST_FILE = GLFMDBCipher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DHAVE_USLEEP=1",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SQLCipher\"",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DHAVE_USLEEP=1",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DSQLITE_HAS_CODEC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RO.GLFMDBCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92C4FC501C50C6CB003463AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3207123B309B4B75E73DD61 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GLFMDBCipher/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/SQLCipher\"",
+					./sqlcipher/src,
+				);
+				INFOPLIST_FILE = GLFMDBCipher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DHAVE_USLEEP=1",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SQLCipher\"",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DHAVE_USLEEP=1",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DSQLITE_HAS_CODEC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RO.GLFMDBCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C4FC321C50C6CB003463AB /* Build configuration list for PBXProject "GLFMDBCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C4FC4C1C50C6CB003463AB /* Debug */,
+				92C4FC4D1C50C6CB003463AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C4FC4E1C50C6CB003463AB /* Build configuration list for PBXNativeTarget "GLFMDBCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C4FC4F1C50C6CB003463AB /* Debug */,
+				92C4FC501C50C6CB003463AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C4FC2F1C50C6CB003463AB /* Project object */;
+}
